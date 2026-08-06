@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width. initial-scale=1.0">
         <meta name="keywords" content="Liyanda Tonisi, portfolio, Liyanda, personal portfolio, portfolio design, web design">
@@ -8,12 +9,93 @@
 
         <link rel="stylesheet" href="style.css">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://kit.fontawesome.com/95a2002ecf.js" crossorigin="anonymous"></script>
+        
+        <!-- find an icon to add to images, should be a caricuture of a woman/gender neutral -->
+        <link id='favicon' rel="shortcut icon" href="./assets/images/" type="image/x-png">
+
         <title>Portfolio | Liyanda Tonisi</title>
 
-        <!-- <body>
-        <h>Liyanda's Portfolio</h>
-        <a href="https://www.linkedin.com/in/liyanda-tonisi-926862291/">Linkedin Profile</a>
-        <a href="https://github.com/LiyandasGitH">Github Profile</a>
-        <link rel="stylesheet.css" href="style.css">-->
     </head>
+    <body>
+        <header>
+            <a href class="logo"><i class="fa-solid fa-code"></i> Liyanda Tonisi</a>
+
+            <div id="menu" class="fas fa-bars"></div>
+            <nav class="navbar">
+                <ul>
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="home" id="home">
+            <div id="particles-js"></div>
+
+            <div class="content">
+                <h2>Hi There,<br/> My name is Liyanda Tonisi <span></span></h2>
+                <p>I am into <span class="typing-text"></span></p>
+                <a href="#about" class="btn"><span>About Me</span>
+                    <i class="fas fa-arrow-circle-down"></i>
+                </a>
+
+                <div class="socials">
+                    <ul class="social-icons">
+                        <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/liyanda-tonisi-926862291" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+                        <li><a class="github" aria-label="GitHub" href="https://github.com/LiyandasGitH" target="_blank"><i class="fab fa-github"></i></a></li>
+                        <li><a class="discord" aria-label="Discord" href="" target="_blank"><i class="fab fa-dicord"></i></a>
+                    </ul>
+                </div>
+            </div>
+        <div class="image">
+            <!-- will insert professionally taken photo of myself -->
+            <img draggable="false" class="tilt" src="./assets/images/" alt="" height="">
+        </div>
+        </section>
+
+        <section class="about" id="about">
+            <h2 class="heading"><i class="fas fa-user-alt"></i>About <span>Me</span></h2>
+
+            <div class="row">
+
+            <div class="image">
+                <!-- will be a profile image, perhaps animatin in front of laptop -->
+                <img draggable="false" class="tilt" src="./assets/images/" alt="">
+            </div>
+            <div class="content">
+                <h3>I am Liyana Tonisi</h3>
+                <span class="tag">Software Developer</span>
+
+                <p>
+                    I am a Software Developer based in Cape Tonw, South Africa.
+                    I am very passionate about programming and development, honing my own skills and learning as much as I can.
+                
+                </p>
+
+                <div class="box-container">
+                    <div class="box">
+                        <p><span> age: </span>22</p>
+                        <p><span> phone : </span> +27 XXX-XXX XXXX</p>
+                    </div>
+                    <div class="box">
+                        <p><span> email : </span> email@gmail.com</p>
+                        <p><span> place : </span> Cape Town, South Africa</p>
+                    </div>
+                </div>
+
+                <div class="resumeBtn">
+                    <a href="#" target="_blank" class="btn"><span>Resume</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            
+            </div>
+        </section>
+    </body>
 </html>
